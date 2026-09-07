@@ -1,0 +1,34 @@
+{
+  "name": "xprof-cli",
+  "version": "1.0.0",
+  "description": "Terminal-first XProf profile analysis using the official CLI, with a portable SQLite-backed XSpace protobuf fallback.",
+  "author": {
+    "name": "Primatrix",
+    "url": "https://github.com/primatrix"
+  },
+  "homepage": "https://github.com/primatrix/skills",
+  "repository": "https://github.com/primatrix/skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "xprof",
+    "xplane",
+    "profiling",
+    "tpu",
+    "jax"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "XProf CLI",
+    "shortDescription": "Terminal-first XProf analysis with bounded evidence",
+    "longDescription": "Inspect local XProf captures with the official XProf CLI first, then use the bundled standalone XSpace parser only when the official CLI cannot answer the requested query.",
+    "developerName": "Primatrix",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Inspect this XProf profile and return bounded, evidence-backed findings."
+    ]
+  }
+}

@@ -20,6 +20,7 @@ A Skill is a set of structured instructions, usually defined in a `SKILL.md` fil
 | `session-recorder` | `1.0.0` | 1 skill | Record complete session content into dated work logs. |
 | `superpowers` | `6.0.3` | 14 skills, 3 commands, hooks | Core workflow skills: TDD, debugging, brainstorming, review, planning, and collaboration patterns. Based on official Superpowers v6.0.3 with Primatrix RFC workflow customizations. |
 | `tpu-perf` | `0.3.0` | 4 skills | Systematic TPU pretraining profile analysis: anatomy, communication, compute, and HBM memory. |
+| `xprof-cli` | `1.0.0` | 1 skill | Terminal-first XProf analysis with the official CLI and a portable XSpace PB fallback. |
 | `xprof-profiling-analysis` | `2.0.0` | 1 skill | TPU/XLA profiling methodology plus XProf MCP-oriented analysis workflows. |
 
 `tpu-perf` replaces the older `tpu-perf-model` plugin.
@@ -59,6 +60,7 @@ A Skill is a set of structured instructions, usually defined in a `SKILL.md` fil
 | `tpu-perf` | `comm-analysis` | Analyzing TPU communication primitives, axis bandwidth, and compute/comm overlap. |
 | `tpu-perf` | `compute-breakdown` | Producing HLO duration breakdowns, layer scopes, non-compute audits, and roofline shortfall reports. |
 | `tpu-perf` | `memory-profile` | Analyzing HBM peak occupancy and alive-buffer attribution from profile directories. |
+| `xprof-cli` | `xprof-cli` | Inspecting local XProf captures from the terminal with bounded raw-event, HLO, memory, LLO, and fallback PB analysis. |
 | `xprof-profiling-analysis` | `xprof-profiling-analysis` | Analyzing TPU/GPU profiles with XProf APIs and offline trace methodology. |
 
 ## Slash Commands
@@ -86,6 +88,7 @@ Add this repository as a marketplace, then install the plugins you need:
 /plugin install session-recorder@primatrix-skills
 /plugin install superpowers@primatrix-skills
 /plugin install tpu-perf@primatrix-skills
+/plugin install xprof-cli@primatrix-skills
 /plugin install xprof-profiling-analysis@primatrix-skills
 ```
 
@@ -119,6 +122,7 @@ codex plugin add lint-fix@primatrix-skills
 codex plugin add session-recorder@primatrix-skills
 codex plugin add superpowers@primatrix-skills
 codex plugin add tpu-perf@primatrix-skills
+codex plugin add xprof-cli@primatrix-skills
 codex plugin add xprof-profiling-analysis@primatrix-skills
 ```
 
@@ -145,6 +149,7 @@ gemini skills install https://github.com/primatrix/skills.git --path plugins/sup
 gemini skills install https://github.com/primatrix/skills.git --path plugins/tpu-perf/skills/profile-anatomy
 gemini skills install https://github.com/primatrix/skills.git --path plugins/tpu-perf/skills/comm-analysis
 gemini skills install https://github.com/primatrix/skills.git --path plugins/exec-remote/skills/exec-remote
+gemini skills install https://github.com/primatrix/skills.git --path plugins/xprof-cli/skills/xprof-cli
 ```
 
 Install into the current workspace instead of user scope:
