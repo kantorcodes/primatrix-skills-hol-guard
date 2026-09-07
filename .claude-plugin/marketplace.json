@@ -105,6 +105,15 @@
       "license": "Apache-2.0",
       "keywords": ["plane", "gitlab", "glab", "outline", "mcp", "api", "knowledge-base", "project-management"],
       "category": "productivity"
+    },
+    {
+      "name": "xprof-cli",
+      "source": "./plugins/xprof-cli",
+      "description": "Terminal-first XProf profile analysis using the official CLI, with a portable SQLite-backed XSpace protobuf fallback",
+      "version": "1.0.0",
+      "license": "Apache-2.0",
+      "keywords": ["xprof", "xplane", "profiling", "tpu", "jax", "cli"],
+      "category": "performance"
     }
   ]
 }

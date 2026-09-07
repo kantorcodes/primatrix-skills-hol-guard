@@ -1,0 +1,5 @@
+{
+  "name": "xprof-cli",
+  "description": "Terminal-first XProf profile analysis using the official CLI, with a portable SQLite-backed XSpace protobuf fallback.",
+  "version": "1.0.0"
+}
