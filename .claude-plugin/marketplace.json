@@ -13,13 +13,7 @@
       "description": "Execute Python scripts on remote GPU/TPU clusters via SkyPilot",
       "version": "1.0.0",
       "license": "Apache-2.0",
-      "keywords": [
-        "gpu",
-        "tpu",
-        "remote",
-        "skypilot",
-        "cloud"
-      ],
+      "keywords": ["gpu", "tpu", "remote", "skypilot", "cloud"],
       "category": "infrastructure"
     },
     {
@@ -28,11 +22,7 @@
       "description": "Records the complete session content and logs it to a daily work directory with a dynamic filename based on the active CLI agent. Use this for automated progress tracking and documentation.",
       "version": "1.0.0",
       "license": "Apache-2.0",
-      "keywords": [
-        "session-recorder",
-        "progress",
-        "documentation"
-      ],
+      "keywords": ["session-recorder", "progress", "documentation"],
       "category": "productivity"
     },
     {
@@ -41,14 +31,7 @@
       "description": "Beaver project management: GitHub-native issue lifecycle with explicit /beaver-xxx commands covering the full development cycle (create, design, decompose, dev, PR, beaver-fix, tracker, focus, setup)",
       "version": "3.3.0",
       "license": "Apache-2.0",
-      "keywords": [
-        "beaver",
-        "github",
-        "issues",
-        "project-management",
-        "pr",
-        "lifecycle"
-      ],
+      "keywords": ["beaver", "github", "issues", "project-management", "pr", "lifecycle"],
       "category": "productivity"
     },
     {
@@ -57,13 +40,7 @@
       "description": "Install and operate HOL Guard local runtime security for supported AI coding agents before tool execution",
       "version": "0.1.0",
       "license": "Apache-2.0",
-      "keywords": [
-        "hol-guard",
-        "ai-security",
-        "agent-security",
-        "runtime-security",
-        "guardrails"
-      ],
+      "keywords": ["hol-guard", "ai-security", "agent-security", "runtime-security", "guardrails"],
       "category": "security"
     },
     {
@@ -72,15 +49,7 @@
       "description": "Check and fix lint issues for changed Python files by commit, range, or working tree",
       "version": "1.0.0",
       "license": "Apache-2.0",
-      "keywords": [
-        "lint",
-        "format",
-        "isort",
-        "ruff",
-        "black",
-        "codespell",
-        "pre-commit"
-      ],
+      "keywords": ["lint", "format", "isort", "ruff", "black", "codespell", "pre-commit"],
       "category": "code-quality"
     },
     {
@@ -90,14 +59,7 @@
       "category": "workflow",
       "version": "6.0.3",
       "license": "MIT",
-      "keywords": [
-        "skills",
-        "tdd",
-        "debugging",
-        "brainstorming",
-        "collaboration",
-        "workflows"
-      ]
+      "keywords": ["skills", "tdd", "debugging", "brainstorming", "collaboration", "workflows"]
     },
     {
       "name": "xprof-profiling-analysis",
@@ -105,15 +67,7 @@
       "description": "TPU/XLA profiling analysis: MCP tools for XProf HTTP API (operator breakdowns, memory profiles, A/B comparisons) + methodology skills for trace parsing, MFU calculation, bottleneck identification",
       "version": "2.0.0",
       "license": "Apache-2.0",
-      "keywords": [
-        "tpu",
-        "xla",
-        "profiling",
-        "xprof",
-        "xplane",
-        "mfu",
-        "performance"
-      ],
+      "keywords": ["tpu", "xla", "profiling", "xprof", "xplane", "mfu", "performance"],
       "category": "performance"
     },
     {
@@ -122,13 +76,7 @@
       "description": "Plan and render GKE TPU Jobs and nodepool actions with explicit context/namespace safety",
       "version": "2.0.0",
       "license": "Apache-2.0",
-      "keywords": [
-        "gke",
-        "tpu",
-        "kubectl",
-        "kubernetes",
-        "jax"
-      ],
+      "keywords": ["gke", "tpu", "kubectl", "kubernetes", "jax"],
       "category": "infrastructure"
     },
     {
@@ -137,13 +85,7 @@
       "description": "Mine local Claude/Codex session history to produce structured daily/weekly work recaps with optional GitHub Issue sync",
       "version": "0.1.0",
       "license": "Apache-2.0",
-      "keywords": [
-        "recap",
-        "session",
-        "summary",
-        "report",
-        "agent-history"
-      ],
+      "keywords": ["recap", "session", "summary", "report", "agent-history"],
       "category": "productivity"
     },
     {
@@ -152,13 +94,7 @@
       "description": "Systematic analysis of TPU pretraining efficiency. profile-anatomy: schema + reference scripts for xplane.pb / trace.json.gz. comm-analysis: per-axis NCCL bus BW, peak ICI utilization, and per-step compute/comm overlap. compute-breakdown: source-line aggregation, layer scoping, non-compute audit, v7x roofline shortfall. memory-profile: HBM peak occupancy, alive-buffer attribution, lifetime/shape/tf_op/parent_jit rollups.",
       "version": "0.3.0",
       "license": "Apache-2.0",
-      "keywords": [
-        "tpu",
-        "profiling",
-        "xplane",
-        "pretraining",
-        "performance"
-      ],
+      "keywords": ["tpu", "profiling", "xplane", "pretraining", "performance"],
       "category": "performance"
     },
     {
@@ -167,16 +103,7 @@
       "description": "Open, list, and inspect Google Cloud support cases (Cloud TPU / GKE / GCS) via the Cloud Support API v2, with guided classification, priority confirmation, and formatted case detail output",
       "version": "1.0.0",
       "license": "Apache-2.0",
-      "keywords": [
-        "gcloud",
-        "gcp",
-        "support",
-        "case",
-        "cloud-support-api",
-        "tpu",
-        "gke",
-        "gcs"
-      ],
+      "keywords": ["gcloud", "gcp", "support", "case", "cloud-support-api", "tpu", "gke", "gcs"],
       "category": "infrastructure"
     },
     {
@@ -185,17 +112,17 @@
       "description": "Read and manage Plane, GitLab, and Outline through configured MCP tools, CLI, and APIs with credential-safe, read-first workflows",
       "version": "1.0.0",
       "license": "Apache-2.0",
-      "keywords": [
-        "plane",
-        "gitlab",
-        "glab",
-        "outline",
-        "mcp",
-        "api",
-        "knowledge-base",
-        "project-management"
-      ],
+      "keywords": ["plane", "gitlab", "glab", "outline", "mcp", "api", "knowledge-base", "project-management"],
       "category": "productivity"
+    },
+    {
+      "name": "xprof-cli",
+      "source": "./plugins/xprof-cli",
+      "description": "Terminal-first XProf profile analysis using the official CLI, with a portable SQLite-backed XSpace protobuf fallback",
+      "version": "1.0.0",
+      "license": "Apache-2.0",
+      "keywords": ["xprof", "xplane", "profiling", "tpu", "jax", "cli"],
+      "category": "performance"
     }
   ]
 }

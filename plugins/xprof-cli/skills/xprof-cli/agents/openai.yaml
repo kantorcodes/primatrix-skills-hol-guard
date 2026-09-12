@@ -1,0 +1,4 @@
+interface:
+  display_name: "XProf CLI Analysis"
+  short_description: "Analyze XProf traces from the terminal with bounded output"
+  default_prompt: "Use $xprof-cli to inspect this XProf profile from the terminal and return bounded, evidence-backed findings."
